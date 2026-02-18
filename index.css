@@ -26,6 +26,12 @@ body{
     background-color: white;
     border-radius: 20px;
     box-shadow: 10px 10px 0px;
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+/*Animation*/
+.card:hover{
+    transform: translate(4px, -4px);
 }
 .card-child{
     margin-left:15px;
